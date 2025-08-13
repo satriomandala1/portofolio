@@ -5,8 +5,8 @@ const Hero = () => {
   return (
     <section id="home" className="hero">
       <div className="hero-content">
-        <h1>Hello, I'm <span>Data Scientist</span></h1>
-        <p>Fresh graduate passionate about transforming raw data into meaningful insights through statistics, programming, and machine learning.</p>
+        <h1>Hello, I'm <span>MANDALA</span></h1>
+        <p>Lorem ipsum gak jelas.</p>
         <Link to="#contact" className="btn">Contact Me</Link>
       </div>
       <div className="hero-image">

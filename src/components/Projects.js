@@ -10,8 +10,8 @@ const Projects = () => {
             <img src="https://placehold.co/600x400" alt="Sentiment analysis dashboard showing positive and negative tweet classifications" />
           </div>
           <div className="project-content">
-            <h3 className="project-title">Sentiment Analysis</h3>
-            <p>Twitter sentiment analysis using NLP techniques with accuracy of 89%.</p>
+            <h3 className="project-title">Website pinjam dulu</h3>
+            <p>pinjam uang dulu bayar nanti mudahkan?.</p>
             <div className="project-links">
               <a href="#" className="btn">View Code</a>
             </div>
@@ -22,8 +22,8 @@ const Projects = () => {
             <img src="https://placehold.co/600x400" alt="House price prediction model interface with interactive map and charts" />
           </div>
           <div className="project-content">
-            <h3 className="project-title">House Price Prediction</h3>
-            <p>Regression model to predict housing prices using Scikit-learn.</p>
+            <h3 className="project-title">Website Bansos</h3>
+            <p>Bansos (bantuan sosial).</p>
             <div className="project-links">
               <a href="#" className="btn">View Code</a>
             </div>
@@ -34,8 +34,8 @@ const Projects = () => {
             <img src="https://placehold.co/600x400" alt="Customer segmentation dashboard with clusters visualized in 3D space" />
           </div>
           <div className="project-content">
-            <h3 className="project-title">Customer Segmentation</h3>
-            <p>K-means clustering analysis for retail customer segments.</p>
+            <h3 className="project-title">Approvement</h3>
+            <p>Juara 1 lomba kelereng.</p>
             <div className="project-links">
               <a href="#" className="btn">View Code</a>
             </div>
