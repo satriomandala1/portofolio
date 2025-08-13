@@ -1,17 +1,57 @@
-import React from 'react';
+import React from "react";
+import "../styles/global.css";
+import fotodiri from "../images/fotodiri.jpg"; // pastikan path ini benar
 
-const Contact = () => {
+const Social = () => {
   return (
-    <section id="contact" className="contact">
-      <h2 className="section-title">Get In Touch</h2>
-      <div className="social-links">
-        <a href="#" className="social-link" aria-label="LinkedIn profile"><i className="fab fa-linkedin"></i></a>
-        <a href="#" className="social-link" aria-label="GitHub profile"><i className="fab fa-github"></i></a>
-        <a href="#" className="social-link" aria-label="Twitter profile"><i className="fab fa-twitter"></i></a>
-        <a href="#" className="social-link" aria-label="Email contact"><i className="fas fa-envelope"></i></a>
+    <section id="social" className="social-card">
+         <div ref={ref} className={`Social-card ${inView ? 'fade-in' : ''}`}>
+        </div>
+      {/* Foto Profil */}
+      <div className="social-photo">
+        <img src={fotodiri} alt="Foto Profil" />
+      </div>
+
+      {/* Konten */}
+      <div className="social-content">
+           
+        <h2>Social Media</h2>
+        <p>
+          Find me on various social media platforms to communicate,
+share ideas, and collaborate. 
+        </p>
+        <ul className="social-links">
+          <li>
+            <a href="https://wa.me/6285893236193" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+                alt="WhatsApp"
+              />
+              WhatsApp
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/mandla_15/" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+                alt="Instagram"
+              />
+              Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://linkedin.com/in/satriomandala" target="_blank" rel="noopener noreferrer">
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                alt="LinkedIn"
+              />
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </div>
     </section>
   );
 };
 
-export default Contact;
+export default Social;
