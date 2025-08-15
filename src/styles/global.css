@@ -2,7 +2,7 @@
 :root {
   --primary-bg: #ffffff;
   --secondary-bg: #f8f9fa;
-  --text-color: #212529;
+  --text-color: #000; /* mode terang */
   --accent-color: #4361ee;
   --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   --card-bg: #ffffff;
@@ -34,9 +34,6 @@ body {
 }
 
 header {
-   opacity: 0;
-  transform: translateY(-20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -48,10 +45,7 @@ header {
   z-index: 1000;
   box-shadow: var(--shadow);
 }
-.header.fade-in {
-  opacity: 1;
-  transform: translateY(0);
-}
+
 .logo {
   font-size: 33px;
   font-weight: 700;
@@ -112,13 +106,6 @@ nav ul li a:hover::after {
 
 .hero-content {
   max-width: 600px;
-   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-.hero-content.fade-in {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .hero h1 {
@@ -193,18 +180,11 @@ section {
 }
 
 .about-content {
-    opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
   font-size: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
   align-items: center;
-}
-.about-content.fade-in {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .skills {
@@ -234,13 +214,6 @@ section {
   border-radius: 10px;
   overflow: hidden;
   box-shadow: var(--shadow);
-   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
-}
-.project-card.fade-in {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .project-image {
@@ -399,9 +372,6 @@ footer {
 }
   /* Card Utama */
 .social-card {
-  opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.5s ease, transform 0.5s ease;
   display: flex;
   align-items: center;
    background: var(--card-bg); 
@@ -415,11 +385,6 @@ footer {
   margin: 2rem auto;
   flex-wrap: wrap;
 }
-.social-card.fade-in {
-  opacity: 1;
-  transform: translateY(0);
-}
-
 
 /* Foto Profil */
 .social-photo img {

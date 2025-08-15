@@ -1,23 +1,17 @@
 import React from 'react';
-import { useInView } from 'react-intersection-observer';
 
-import "../styles/global.css";
 const About = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.1, // 10% dari elemen harus terlihat
-  });
-
   return (
     <section id="about" className="about">
       <h2 className="section-title">About Me</h2>
-      <div ref={ref} className={`about-content ${inView ? 'fade-in' : ''}`}>
+      <div className="about-content">
         <div>
-          <p><strong>Full Name:</strong> Satrio Mandala Putraa</p>
-          <p><strong>Tempat, Tanggal Lahir:</strong> Tangerang, 15 January 2007</p>
-          <p><strong>Tempat Tinggal:</strong> Tangerang, Indonesia</p>
+          <p><strong>Full Name:</strong> Satrio Mandala Putraa  </p>
+          <p><strong>Tempat, Tanggal Lahir:</strong> Tangerang 15 january 2007</p>
+          <p><strong>Tempat Tinggal:</strong> tangerang, Indonesia</p>
           <p><strong>Gender:</strong> Man</p>
           <p><strong>Citizenship:</strong> Indonesia</p>
-          <p><strong>Status:</strong> Siswa SMK</p>
+          <p><strong>Status:</strong> siswa SMK</p>
         </div>
         <div>
           <h3>Skills</h3>

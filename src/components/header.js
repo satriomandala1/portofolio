@@ -1,17 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import { useInView } from 'react-intersection-observer';
-import "../styles/global.css";
 
 const Header = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.1, // 10% dari elemen harus terlihat
-  });
-
   return (
-    <header ref={ref} className={`header ${inView ? 'fade-in' : ''}`}>
+    <header>
       <div className="logo">Mandala Portfolio</div>
-      <nav>
+      <nav> 
         <ul>
           <li><Link to="#home">Home</Link></li>
           <li><Link to="#about">About</Link></li>

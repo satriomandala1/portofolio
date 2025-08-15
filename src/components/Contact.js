@@ -5,8 +5,6 @@ import fotodiri from "../images/fotodiri.jpg"; // pastikan path ini benar
 const Social = () => {
   return (
     <section id="social" className="social-card">
-         <div ref={ref} className={`Social-card ${inView ? 'fade-in' : ''}`}>
-        </div>
       {/* Foto Profil */}
       <div className="social-photo">
         <img src={fotodiri} alt="Foto Profil" />
@@ -14,7 +12,6 @@ const Social = () => {
 
       {/* Konten */}
       <div className="social-content">
-           
         <h2>Social Media</h2>
         <p>
           Find me on various social media platforms to communicate,
