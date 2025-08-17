@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import fotoDiri from "../images/fotodiri.jpg";
+import fotoDiri from "../images/fotosaya.jpg";
 
 const Hero = () => {
   return (
