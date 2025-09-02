@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Header = () => {
+const header = () => {
   return (
-    <Header>
+    <header>
       <div className="logo">Mandala Portfolio</div>
       <nav> 
         <ul>
@@ -16,8 +16,8 @@ const Header = () => {
       <button className="theme-toggle" aria-label="Toggle dark mode">
         <i className="fas fa-moon"></i>
       </button>
-    </Header>
+    </header>
   );
 };
 
-export default Header;
+export default header;
