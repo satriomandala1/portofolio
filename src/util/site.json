@@ -1,0 +1,14 @@
+{
+  "meta": {
+    "title": "Stiffin",
+    "titleTemplate": "%s | Stiffin",
+    "description": "Website Stiffin menggunakan Gatsby dan React.",
+    "siteUrl": "https://stiffin.com",
+    "image": "/default-og-image.jpg",
+    "twitterUsername": "@stiffin",
+    "iconimage": "/favicon.png",
+
+    "defaultKeywords": "Stiffin, Stiffin Project, Stiffin Website, Stiffin Gatsby, Stiffin Blog, Web Development, React, GatsbyJS, Frontend Developer, SEO Optimization"
+  },
+  "ga": "UA-XXXXXXXXX-X"
+}
