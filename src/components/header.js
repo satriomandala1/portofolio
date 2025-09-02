@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 
 const Header = () => {
   return (
-    <header>
+    <Header>
       <div className="logo">Mandala Portfolio</div>
       <nav> 
         <ul>
@@ -16,7 +16,7 @@ const Header = () => {
       <button className="theme-toggle" aria-label="Toggle dark mode">
         <i className="fas fa-moon"></i>
       </button>
-    </header>
+    </Header>
   );
 };
 
